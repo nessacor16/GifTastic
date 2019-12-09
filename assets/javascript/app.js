@@ -1,4 +1,4 @@
-// // $(document).ready(function(){
+$(document).ready(function(){
 
 var emotions = [
     `trust`, `joy`, `sadness`, `suprise`, `anticipation`, `disgust`, `fear`, `happiness`, `anger`, `shame`, `kidness`, `love`, `friendship`, `envy`, `pity`, `weeping`, `excitement`, `horror`, `trrumph`
@@ -105,3 +105,7 @@ $("button").on("click", function() {
         }
       });
   });
+
+
+  
+});
