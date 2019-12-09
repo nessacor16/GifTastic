@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>GifTastic</title>
+</head>
+
+<body>
+
+<div class="container-fluid">
+<h1>Express Myself!</h1>
+
+<div class="row">
+<button data-emotion="trust">trust</button>
+<button data-emotion="anger">anger</button>
+<button data-emotion="joy">joy</button>
+<button data-emotion="suprise">suprise</button>
+</div>
+
+<div class="row">
+    <div data-emotion="trust" id="btn-section" class="col-md-12"></div>
+</div>
+
+<!-- `trust`, `joy`, `sadness`, `suprise`, `anticipation`, `disgust`, `fear`, `happiness`, `anger`, `shame`, `kidness`, `love`, `friendship`, `envy`, `pity`, `weeping`, `excitement`, `horror`, `trrumph` -->
+
+<div class="row">
+    <div id="images" class="gifImg col-md-9"></div>
+        <form class="col-md-2">
+            Feeling Mood
+            <input type="text" id="userInput">
+            <input type="submit" class="btn-info" id="submit-btn" value="State Your Feelings, Yo!">
+        </form>
+</div>
+</div>
+
+<!-- <div class="container-fluid">
+        <h1>The Song That Describes My Feelings:</h1>
+        <div class="row">
+            <div id="btn-section" class="col-md-12"></div>
+        </div>
+            <div class="row">
+                <div class="gifImg col-md-9"></div>
+    
+                <form class="col-md-2">
+                        Interest Topics
+                        <input type="text" id="userInput">
+                        <input type="submit" class="btn-info" id="submit-btn" value="Add a Feeling, Yo!">
+                </form>
+            </div>
+    </div> -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js">
+    </script>
+</body>
+
+</html>
