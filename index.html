@@ -14,50 +14,74 @@
 </head>
 
 <body>
-
-<div class="container-fluid">
-<h1>Express Myself!</h1>
-
-<div class="row">
-<button data-emotion="trust">trust</button>
-<button data-emotion="anger">anger</button>
-<button data-emotion="joy">joy</button>
-<button data-emotion="suprise">suprise</button>
-</div>
-
-<div class="row">
-    <div data-emotion="trust" id="btn-section" class="col-md-12"></div>
-</div>
-
-<!-- `trust`, `joy`, `sadness`, `suprise`, `anticipation`, `disgust`, `fear`, `happiness`, `anger`, `shame`, `kidness`, `love`, `friendship`, `envy`, `pity`, `weeping`, `excitement`, `horror`, `trrumph` -->
-
-<div class="row">
+        <!-- <div class="main" id="container"> -->
+    <section>
+            
+<div class="main" id="container">
+    <h1>Express Myself!</h1>
+    <div id="floatRight" class="container-fluid">
+           
+    <div class="row">
+        <button class="btn-emotion" data-emotion="happy">Woohooooo!!!</button>
+        <button class="btn-emotion" data-emotion="angry">You do NOT Want to TEST ME!!!</button>
+        <button class="btn-emotion" data-emotion="joy">Success, Success, Success...Yay</button>
+        <button class="btn-emotion" data-emotion="annoyed">Seriously!!!</button>
+    </div>
+            
+    <div class="row">
     <div id="images" class="gifImg col-md-9"></div>
         <form class="col-md-2">
-            Feeling Mood
+            Feeling Mood!
             <input type="text" id="userInput">
             <input type="submit" class="btn-info" id="submit-btn" value="State Your Feelings, Yo!">
         </form>
-</div>
-</div>
+    </div>
+            
+    <div class="row">
+    <div data-emotion="trust" id="btn-section" class="col-md-12"></div>
+    <div id="images" class="gifImg col-md-9"></div>
+    </div>
+            
+     <!-- `trust`, `joy`, `sadness`, `suprise`, `anticipation`, `disgust`, `fear`, `happiness`, `anger`, `shame`, `kidness`, `love`, `friendship`, `envy`, `pity`, `weeping`, `excitement`, `horror`, `trrumph` -->
+            
 
-<!-- <div class="container-fluid">
-        <h1>The Song That Describes My Feelings:</h1>
+    </section>
+
+
+
+<!-------------------------------------- MUSIC -------------------------------------->
+
+<aside class="right">
+<h2>Music that Understands Me!!</h2>
+    <div id="floatRight" class="container-fluid">
+           
         <div class="row">
-            <div id="btn-section" class="col-md-12"></div>
+            <button class="btn-music" data-emotion="soul">soul</button>
+            <button class="btn-music" data-emotion="smooth jazz">smooth</button>
+            <button class="btn-music" data-emotion="reggae">move to the beat</button>
+            <button class="btn-music" data-emotion="latin">move your feet and hips</button> 
         </div>
-            <div class="row">
-                <div class="gifImg col-md-9"></div>
-    
-                <form class="col-md-2">
-                        Interest Topics
-                        <input type="text" id="userInput">
-                        <input type="submit" class="btn-info" id="submit-btn" value="Add a Feeling, Yo!">
-                </form>
-            </div>
-    </div> -->
+                
+        <div class="row">
+        <div id="images" class="gifImg col-md-9"></div>
+            <form class="col-md-2">
+                Feeling Mood!
+                <input type="text" id="userInput">
+                <input type="submit" class="btn-info" id="submit-btn" value="State Your Feelings, Yo!">
+            </form>
+        </div>
+                
+        <div class="row">
+        <div data-emotion="trust" id="btn-section" class="col-md-12"></div>
+        <div id="images" class="gifImg col-md-9"></div>
+        </div>
 
+            <!-- `trust`, `joy`, `sadness`, `suprise`, `anticipation`, `disgust`, `fear`, `happiness`, `anger`, `shame`, `kidness`, `love`, `friendship`, `envy`, `pity`, `weeping`, `excitement`, `horror`, `trrumph` -->
 
+ 
+    </aside>
+    </div>
+    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -66,3 +90,4 @@
 </body>
 
 </html>
+

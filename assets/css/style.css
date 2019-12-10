@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    text-shadow:  1px 1px 1px rgb(5, 5, 75);
+    font-family: italic;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(31, 25, 25);
+}
+h2 {
+    font-size: 30px;
+    text-shadow:  1px 1px 1px rgb(5, 5, 75);
+    font-family: italic;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+img{
+    height: 160px;
+    widows: 160px;
+    border-radius: 5px;
+    
+}
+section {
+    padding:50px;
+    width: 50%;
+    float: left;
+    height: 600px;
+    background: silver;
+    text-align: justify;
+    background-image: url("feelings.jpg");
+}
+.right{
+    padding: 50px;
+    width: 50%;
+    float: left;
+    height: 600px;
+    background: cornflowerblue;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    border-style: outset;
+    background-image: url("music.jpg");
+}
+
+.main::after {
+    align-content: center;
+    clear: both;
+    display: table;
+    border-radius: 2px;
+    border-style: outset;
+}
