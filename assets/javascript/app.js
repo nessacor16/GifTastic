@@ -47,7 +47,7 @@ $(document).ready(function () {
       event.preventDefault();
       var inputVal = $(`#userInput`).val();
       // Push User input to array
-      emotions.push(inputVal);
+      emotions.push(userInputVal);
       // Creats new buttons
       createBtn();
       console.log(inputVal)
@@ -101,7 +101,7 @@ $(document).ready(function () {
           emotionDiv.append(emotionImage);
 
           // Prependng the emotionsDiv to the HTML page in the "#gifs-appear-here" div
-          $("#images").prepend(emotionDiv);
+          $("#imagesOneBottom").prepend(emotionDiv);
         }
       });
   });
@@ -175,7 +175,7 @@ $(document).ready(function () {
 
 
   // Adding click event listen listener to all buttons
-  $("button").on("click", function () {
+  $(".btn-music").on("click", function () {
     // Grabbing and storing the data-emotionss property value from the button
     emotion = $(this).attr("data-emotion");
 
@@ -216,7 +216,7 @@ $(document).ready(function () {
           emotionDiv.append(emotionImage);
 
           // Prependng the emotionsDiv to the HTML page in the "#gifs-appear-here" div
-          $("#images").prepend(emotionDiv);
+          $("#imagesTwoBottom").prepend(emotionDiv);
         }
       });
 

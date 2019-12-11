@@ -15,6 +15,7 @@ h1 {
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(31, 25, 25);
+    color: cornsilk!important;
 }
 h2 {
     font-size: 30px;
@@ -23,6 +24,7 @@ h2 {
     padding: 20px;
     border-radius: 5px;
     background-color: whitesmoke;
+    
 }
 
 img{
